@@ -1,0 +1,4383 @@
+{
+  "version": 1.4,
+  "query": {
+    "filter": {
+      "currency_id": 643,
+      "city_id": 18,
+      "price": 3000,
+      "building_type": [
+        "one"
+      ],
+      "sleeping_places": 3,
+      "point": {
+        "point_lat": 55.7625506743728,
+        "point_lng": 37.6082298810962
+      },
+      "addons": [
+        "report_documents",
+        "internet"
+      ],
+      "app_user_id": null
+    },
+    "meta": {
+      "offset": 40,
+      "nearest": 0,
+      "limit": 40
+    }
+  },
+  "currency": {
+    "id": 643,
+    "label": "р."
+  },
+  "city_id": 18,
+  "flats": [
+    {
+      "id": 240057,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Тверская",
+      "rooms": 1,
+      "address": "Тверская улица, 19А",
+      "url": "https://kvartirka.com/russia/moskva/apartment-240057.html",
+      "coordinates": {
+        "lon": 37.602773100000036,
+        "lat": 55.76581479999999
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 1600,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838480_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 36709,
+        "flats_count": 19,
+        "name": "Свой Дом",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 964 778-99-28",
+            "normalized": "+79647789928"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838480_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838478_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838474_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838476_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838466_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838467_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838468_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838469_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838470_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240057/1838472_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;2 мин. пешком от метро «Тверская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Дом удобно расположен в самом центре Москвы, всего в 2-х минутах от метро Пушкинская, Тверская, Чеховская. Удобное расположение квартиры для бизнесменов и туристов. Санузел раздельный. Все Окна во двор! Описание: В квартире могут разместиться одновременно от 1 до 3 человек. </p><p>Удобства: Имеется 2-х спальная кровать и односпальный раскладной диван. В квартире есть все необходимое для проживания, отдыха и работы: Wi-Fi, кабельное ТВ (100 каналов), городской телефон, стиральная машина, электрочайник, фен, утюг, гладильная доска, сушилка для белья, вся необходимая посуда для приготовления и приема пищи, комплекты застеленного постельного белья, полотенца фильтр для очистки воды, Все входит в стоимость проживания!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "500 м"
+    },
+    {
+      "id": 57579,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Тверская",
+      "rooms": 1,
+      "address": "Богословский переулок, д. 16/6, стр. 1",
+      "url": "https://kvartirka.com/russia/moskva/apartment-57579.html",
+      "coordinates": {
+        "lon": 37.598259,
+        "lat": 55.763559
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66918_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 14887,
+        "flats_count": 2,
+        "name": "Дмитрий",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 864-18-23",
+            "normalized": "+79258641823"
+          },
+          {
+            "phone": "+7 985 988-98-83",
+            "normalized": "+79859889883"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66918_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66921_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66926_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66922_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66928_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66923_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66929_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66916_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66930_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66919_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66924_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66920_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66931_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66925_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66927_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/57/57579/66917_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;7 мин. пешком от метро «Тверская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Заселение КРУГЛОСУТОЧНО, окна во двор. Спальные места: кровать (2 человека) и диван (1 человек). Из белья: подушки, одеяла, постельное белье, полотенца, банный халат. Высокоскоростной беспроводной (ВайФай) ИНТЕРНЕТ. В гостиной ТЕЛЕВИЗОР с кабельным телевидением (103 телеканала на русском и АНГЛИЙСКОМ языках). Радиотелефон: БЕСПЛАТНЫЕ звонки по Москве, России и за границу. Есть УТЮГ и гладильная доска. На кухне: четырехконфорочная электрическая плита с духовкой, микроволновая печь, электрочайник, холодильник с морозильной камерой, телевизор, стиральная машина, кухонная утварь: чайник, чашки, стаканы, тарелки и столовые принадлежности. Лежачая ванная с душем, ФЕН. Рядом три станции Метро, Тверская улица, Тверской бульвар, Патриарший пруд, супермаркет Алые Паруса (работает круглосуточно), МХАТ, Музей современной истории России, ресторан Пушкин, кафе Ксении Собчак Бублик, пекарня Мишеля. При заселении требуется наличие паспорта или внесение страхового депозита.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "600 м"
+    },
+    {
+      "id": 12456,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Александровский сад",
+      "rooms": 1,
+      "address": "Никитский бульвар, 17",
+      "url": "https://kvartirka.com/russia/moskva/apartment-12456.html",
+      "coordinates": {
+        "lon": 37.598564,
+        "lat": 55.756239
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/12/12456/65016_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 4870,
+        "flats_count": 60,
+        "name": "MoscowSutki",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 926 423-05-35",
+            "normalized": "+79264230535"
+          },
+          {
+            "phone": "+7 926 078-88-25",
+            "normalized": "+79260788825"
+          },
+          {
+            "phone": "+7 926 036-80-10",
+            "normalized": "+79260368010"
+          },
+          {
+            "phone": "+7 925 466-80-78",
+            "normalized": "+79254668078"
+          },
+          {
+            "phone": "+7 925 281-54-32",
+            "normalized": "+79252815432"
+          },
+          {
+            "phone": "+7 903 234-56-76",
+            "normalized": "+79032345676"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/12/12456/65016_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;12 мин. пешком от метро «Александровский сад».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Сдаю посуточно / на сутки и по часам 1 ком. кв., м. Арбатская, 5 мин. пешком, Никитский бульвар. Цена от 2000 руб/сутки до 3400 руб/сутки в зависимости от количества людей и длительности срока аренды. Евроремонт, кондиционер, новая гарнитурная мебель и новая бытовая техника, 2сп.кровать + диван, телевизор, стиральная машина, микроволновка, кондиционер. Постельное бельё. Отчетные документы. Размещение до 4человек. Встреча-проводы аэропорт-вокзал. Скидки от количества дней. т.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "900 м"
+    },
+    {
+      "id": 254514,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Большой Кондратьевский переулок, 12 строение 1",
+      "url": "https://kvartirka.com/russia/moskva/apartment-254514.html",
+      "coordinates": {
+        "lon": 37.581281830688454,
+        "lat": 55.773928382251334
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010193_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 109705,
+        "flats_count": 1,
+        "name": "Кристина",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 977 655-90-06",
+            "normalized": "+79776559006"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010193_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010194_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010209_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010195_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010203_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010204_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010211_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2010212_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2074183_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444263_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444255_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444257_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444252_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444254_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444256_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444258_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444259_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444253_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444260_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444262_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/254/254514/2444261_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;5 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Комфорт и развлечения</h3><ul><li>Сауна или баня</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Минимальный срок проживания 2 дня</li><li>Заселение с 13:00 до 23:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>БРОНИРУЙТЕ БЕЗ РИСКА! </p><p> Отличное расположение, рядом метро Белорусская кольцевая (2 мин пешком), ж/д вокзал.</p><p>Развитая инфраструктура. В округе множество мест проведения досуга, кафе бары, рестораны, торгово-развлекательные комплексы. Также расположены: Московский зоопарк, театры, музеи и другие достопримечательности города, детская Филатовская больница, НИИ им. Бурденко. 5 минут пешком до знаменитой Тверской улицы по которой можно прогуляться до Кремля.</p><p>Мебель и другие удобства:</p><p>Спальные места 4 , гардероб, полноценная кухня, стол, стулья. Постельные принадлежности, Фен, Утюг, сушилка для белья, полотенца, средства гигиены.</p><p>Минимальный срок аренды 2-е суток.</p><p>Отчетные документы.</p><p>Залог 3000 руб.</p><p>Беспл. доступ WIFI сеть : Dovger пароль:GkP8s9Xkhm</p><p>отъезд до 11-00 заезд с 13-00 до 23-00.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 229758,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Сухаревская",
+      "rooms": 1,
+      "address": "улица Гиляровского, 12",
+      "url": "https://kvartirka.com/russia/moskva/apartment-229758.html",
+      "coordinates": {
+        "lon": 37.630718,
+        "lat": 55.776931
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266621_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 37233,
+        "flats_count": 39,
+        "name": "Moskva4you",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 820-25-89",
+            "normalized": "+79258202589"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266621_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266623_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266624_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266626_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266628_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266630_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266632_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266633_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266635_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266637_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266638_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266639_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266640_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266642_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266643_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/229/229758/2266645_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;6 мин. пешком от метро «Сухаревская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>В квартире сделан качественный евроремонт, установлены стеклопакеты. В комнате, оформленной в бежево-коричневых тонах, - двуспальный угловой диван и односпальный диван, современный гарнитур с большим жк телевизором, не большой столик. Доступ в интернет возможен по Вай-Фай и по выделенной линии 4 мб/сек . Также имеется – утюг и гладильная доска, вентилятор. Предоставляется постельное белье и комплект полотенец. Совмещенный санузел оформлен плиткой до потолка. </p><p>На кухне — встроенный гарнитур, варочная панель, стеклянный стол и стулья, двухкамерный холодильник, СВЧ, электрочайник, посуда, а также стиральная машина-автомат. </p><p>Бронирование: Гарантированная бронь квартиры по телефону, прямая аренда без посредников. </p><p>Расчетный час: Заезд с 13. 00 Выезд до 12. 00, однако, если квартира освобождается до расчетного часа – мы всегда готовы пойти вам навстречу и заселить вас пораньше. </p><p>Квартира: Всегда качественная уборка, свежее постельное белье и полотенца. Исправная сантехника и электрика. Есть все для комфортного проживания. </p><p>Интернет: Высокоскоростной Wi-Fi + выделенная линия (установлен роутер)</p><p>Оплата/документы: Возможна как за наличные, так и по безналичному расчету. Предоставляются документы: Договор, счет, акт, кассовый чек, форма 3-г. Внимание! Условия предоставления уточняйте при бронировании. Заключаем договора с организациями с оплатой по безналичному расчету. </p><p>Условия: Квартиры предоставляются только для комфортного проживания. Не допускается проведение мероприятий, вечеринок, праздников</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 198689,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "улица Заморенова, 9 с2",
+      "url": "https://kvartirka.com/russia/moskva/apartment-198689.html",
+      "coordinates": {
+        "lon": 37.5723972917,
+        "lat": 55.7595916673
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900636_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 37233,
+        "flats_count": 39,
+        "name": "Moskva4you",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 820-25-89",
+            "normalized": "+79258202589"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900636_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900637_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900638_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900639_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900640_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900641_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900642_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900643_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900644_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900645_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900646_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900647_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900648_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900649_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/198/198689/1900650_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;6 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Новая двуспальная кровать, угловой диван, шкаф для одежды, телевизор, Размещение до 4-х человек (2+2) В кухне - гарнитур, обеденный стол, стулья. </p><p>Телевизор, двд проигрыватель, интернет вай-фай + выделенная линия, холодильник, плита, стиральная машина-автомат, СВЧ, чайник, утюг, гладильная доска, вентилятор, фен. Постельное белье полотенца. </p><p>Бронирование: Гарантированная бронь квартиры по телефону, прямая аренда без посредников. </p><p>Расчетный час: Заезд с 13. 00 Выезд до 12. 00, однако, если квартира освобождается до расчетного часа – мы всегда готовы пойти вам навстречу и заселить вас пораньше. </p><p>Квартира: Всегда качественная уборка, свежее постельное белье и полотенца. Исправная сантехника и электрика. Есть все для комфортного проживания. </p><p>Интернет: Высокоскоростной Wi-Fi + выделенная линия (установлен роутер)</p><p>Оплата/документы: Возможна как за наличные, так и по безналичному расчету. Предоставляются документы: Договор, счет, акт, кассовый чек, форма 3-г. Внимание! Условия предоставления уточняйте при бронировании. Заключаем договора с организациями с оплатой по безналичному расчету. </p><p>Условия: Квартиры предоставляются только для комфортного проживания. Не допускается проведение мероприятий, вечеринок, праздников</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 50165,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Большой Кандратьевский переулок, д. 4, корп. 2",
+      "url": "https://kvartirka.com/russia/moskva/apartment-50165.html",
+      "coordinates": {
+        "lon": 37.58319449999999,
+        "lat": 55.7724497
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972575_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 12628,
+        "flats_count": 9,
+        "name": "Сообщество Собственников",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 915 329-02-02",
+            "normalized": "+79153290202"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972575_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972577_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972568_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972569_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972566_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972567_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972564_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088051_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088052_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972565_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088055_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088056_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088057_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088060_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088074_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088053_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972570_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972573_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972578_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972582_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088059_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088077_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088075_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972579_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088076_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088078_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088054_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/1088058_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972581_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972583_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972571_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972584_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/50/50165/972572_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;6 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Дорогой Гость квартира находится в 5 минутах ходьбы от метро БЕЛОРУССКАЯ (размещения до 4 человек) . С евро ремонтом, есть вся необходимая мебель и бытовая техника, свежее постельное бельё, приветливый персонал и уютная обстановка для комфортабельного проживания.. . Вы можете задать все интересующие вас вопросы по телефону или Viber, WhatsApp.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 286859,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "улица Заморенова, 9с2",
+      "url": "https://kvartirka.com/russia/moskva/apartment-286859.html",
+      "coordinates": {
+        "lon": 37.572261,
+        "lat": 55.759603
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439564_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 64444,
+        "flats_count": 8,
+        "name": "Алексей",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 916 683-55-79",
+            "normalized": "+79166835579"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439564_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439565_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439568_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439570_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439563_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439566_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439569_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439553_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439556_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439557_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439558_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439559_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439560_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439561_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439562_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439572_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/286/286859/2439573_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;4 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Минимальный срок проживания 2 дня</li><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Однокомнатная квартира на западе центра москвы, откуда открывается замечательный вид на Москву. Расположение дома идеально как для туристов, так для бизнесменов. Дом находится в 4-х минутах ходьбы от метро Краснопресненская-кольцевая. Рядом находится Московский зоопарк, Садовое кольцо, посольство США, Деловой центр на красной пресне (где проходят различные международные и национальные выставки), а также набережная Москвы реки, где можно шикарно провести время. </p><p>Квартира находится на 8-м этаже и поэтому в комнате всегда светло и свежо. В квартире есть раскладывающийся большой диван, телевизор, рабочий стол и балкон.</p><p>На кухне есть все необходимое комфортного долго проживания.</p><p>Ванная и туалет отделаны плиткой. В квартире свежий ремонт и новая мебель.</p><p>В Квартире есть все необходимое для вашего удобства: беспроводной интернет, холодильник, посуда, чайник, утюг, фен, телевизор, постельное белье, полотенца, шампунь и многое другое.</p><p>Добро пожаловать!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 71844,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Кропоткинская",
+      "rooms": 1,
+      "address": "Большой левшинский пер.3",
+      "url": "https://kvartirka.com/russia/moskva/apartment-71844.html",
+      "coordinates": {
+        "lon": 37.590722,
+        "lat": 55.74339
+      },
+      "description": "Студия, кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060063_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 18612,
+        "flats_count": 17,
+        "name": "Дмитрий",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 903 596-33-66",
+            "normalized": "+79035963366"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060063_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060065_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060062_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060064_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060066_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060067_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060061_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/71/71844/1060068_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Студия",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;11 мин. пешком от метро «Кропоткинская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 21:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ПРЕМИУМ КЛАСС. В квартире дизайнерский ремонт в стиле хай-тэк. Современная мебель и техника. Кондиционер. Полы с подогревом. Кабельное тв и интернет. Возможность размещения до 2+1 человек. Постельное белье и принадлежности. Цена зависит от количества дней пребывания.3500-5000</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 101944,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "переулок Грузинский, 6",
+      "url": "https://kvartirka.com/russia/moskva/apartment-101944.html",
+      "coordinates": {
+        "lon": 37.581694,
+        "lat": 55.771965
+      },
+      "description": "Студия, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/561796_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 12873,
+        "flats_count": 7,
+        "name": "Алла",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 926 962-68-85",
+            "normalized": "+79269626885"
+          },
+          {
+            "phone": "+7 903 974-48-36",
+            "normalized": "+79039744836"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/561796_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562761_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562762_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562763_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562764_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562765_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562766_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562768_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562775_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562776_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562777_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/101/101944/562779_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Студия",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;10 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 205772,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "",
+      "rooms": 1,
+      "address": "Грузинский переулок, 12",
+      "url": "https://kvartirka.com/russia/moskva/apartment-205772.html",
+      "coordinates": {
+        "lon": 37.580059,
+        "lat": 55.77329
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561298_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561298_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561301_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561306_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561311_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561348_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561349_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561351_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561352_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561353_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561354_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561355_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561356_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/205/205772/1561357_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 162 </p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Комфортабельная 1-комнатная квартира стандарт-класса с отличным видом, с удобной мебелью рядом с м.Белорусская. </p><p>Квартира расположена в историческом центре Москвы, недалеко от самой знаменитой улицы Москвы - Тверской. В шаговой доступности - Московский зоопарк, спорткомплекс «Олимпийский» и Выставочный центр «Экспоцентр на Красной Пресне». </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 114331,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Грузинский пер., 14",
+      "url": "https://kvartirka.com/russia/moskva/apartment-114331.html",
+      "coordinates": {
+        "lon": 37.580131,
+        "lat": 55.773535
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2600,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561310_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561310_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561326_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561327_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561328_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561329_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561330_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561332_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561335_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1657417_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1657418_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561337_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561339_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561342_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561344_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114331/1561347_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;6 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 100</p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Стильная 1-комнатная квартира бизнес-класса с современной мебелью и отличным ремонтом на Грузинском переулке рядом с м. Белорусская. </p><p>Квартира комфортна для проживания 3 человек. В квартире: двуспальная кровать и раскладной пуф. </p><p>Квартира находится недалеко от самой знаменитой улицы Москвы - Тверской, которая ведет к Красной площади и Кремлю. В шаговой доступности Московский зоопарк, Центральный Московский ипподром. В 10 минутах езды располагается спорткомплекс «Олимпийский» и Выставочный центр «Экспоцентр на Красной Пресне». </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 116186,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Маяковская",
+      "rooms": 1,
+      "address": "Оружейный пер., 5",
+      "url": "https://kvartirka.com/russia/moskva/apartment-116186.html",
+      "coordinates": {
+        "lon": 37.597998,
+        "lat": 55.771266
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561276_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561276_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561279_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561281_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561282_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561283_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561285_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561289_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561292_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561302_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561308_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561315_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561407_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561408_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561409_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561410_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561411_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561412_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561413_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/116/116186/1561414_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;2 мин. пешком от метро «Маяковская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 136</p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА! </p><p>Удобная 1-комнатная квартира бизнес-класса с евроремонтом в светлых бежево-коричневых тонах в Оружейном переулке в 5 минутах от м. Маяковская. Квартира комфортна для проживания 3 человек. В квартире: двуспальная кровать и раскладной пуф. </p><p>Квартира расположена в историческом центре Москвы, в непосредственной близости от самой знаменитой улицы Москвы - Тверской. Рядом находятся Патриаршие пруды, театры «Сатиры», «Ленком» и «Моссовета», концертный зал им. Чайковского, Государственная Третьяковская Галерея посольства различных государств. </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "1 км"
+    },
+    {
+      "id": 121269,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Маяковская",
+      "rooms": 1,
+      "address": "Оружейный пер., 5",
+      "url": "https://kvartirka.com/russia/moskva/apartment-121269.html",
+      "coordinates": {
+        "lon": 37.597998,
+        "lat": 55.771266
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657194_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657194_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657196_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657197_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657198_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657199_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657200_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657201_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657259_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657260_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657261_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657262_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657263_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657264_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657265_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657266_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657267_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/121/121269/1657268_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;2 мин. пешком от метро «Маяковская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 064</p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Хорошая 1-комнатная квартира стандарт-класса на Оружейном переулке в 5 минутах от м.Маяковская. Квартира комфортна для проживания 3 человек. В квартире: двуспальная кровать и раскладной пуф. </p><p>Квартира расположена в историческом центре Москвы, в непосредственной близости от самой знаменитой улицы Москвы - Тверской. Рядом находятся Патриаршие пруды, театры «Сатиры», «Ленком» и «Моссовета», концертный зал им. Чайковского, Государственная Третьяковская Галерея посольства различных государств. </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "1 км"
+    },
+    {
+      "id": 258443,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Маяковская",
+      "rooms": 1,
+      "address": "Садовая-Кудринская улица, 21с4",
+      "url": "https://kvartirka.com/russia/moskva/apartment-258443.html",
+      "coordinates": {
+        "lon": 37.588952,
+        "lat": 55.765579
+      },
+      "description": "Студия, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, утюг",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385298_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 63459,
+        "flats_count": 2,
+        "name": "Надежда",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 958 824-98-48",
+            "normalized": "+79588249848"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385298_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385300_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385299_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385303_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385302_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385305_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385301_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385304_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385307_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/258/258443/2385306_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Студия",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;8 мин. пешком от метро «Маяковская».&#32;</p><h3>Удобства</h3><ul><li>Полотенца, постельное бельё</li><li>Отопление</li><li>Горячая вода</li><li>Беспроводной интернет (Wifi)</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Чайник</li><li>Плита</li><li>Посуда и приборы</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Минимальный срок проживания 2 дня</li><li>Заселение с 13:00 до 14:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Уникальность нашей двухуровневой студии в том, что она оформлена в стиле европейского минимализма с максимально комфортными условиями для проживания от 2-х суток до нескольких месяцев.</p><p>Компактная студия вмещает две жилые зоны со своим кухонным блоком, санузлом и зоной отдыха и работы. Она оснащена всем необходимым, включая индукционную плиту, электрический чайник, постельные и банные принадлежности, столовые и кухонные приборы.</p><p>Студия находится на Садовом кольце в тихом уютном дворике, поэтому шум большого города не слышен.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "1 км"
+    },
+    {
+      "id": 114116,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "Волков пер., 5",
+      "url": "https://kvartirka.com/russia/moskva/apartment-114116.html",
+      "coordinates": {
+        "lon": 37.574004,
+        "lat": 55.762328
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007642_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007642_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007643_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007645_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1284653_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007646_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007647_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1284654_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007648_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007649_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007650_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007651_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007652_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1284655_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114116/1007653_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;3 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 055 </p><p>Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Яркая 1-комнатная квартира премиум-класса с дизайнерским ремонтом в историческом центре Москвы. </p><p>Квартира комфортна для проживания 4 человек. В квартире: двуспальная кровать и двуспальный диван.</p><p>Квартира расположена в историческом центре Москвы недалеко от Выставочного центра «Экспоцентр на Красной Пресне». В непосредственной близости - Московский зоопарк и Московский планетарий, театр «У Никитских ворот» и посольства различных государств. Квартира находится недалеко от самой знаменитой улицы Москвы - Тверской. </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 115936,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Грузинский пер., 10",
+      "url": "https://kvartirka.com/russia/moskva/apartment-115936.html",
+      "coordinates": {
+        "lon": 37.58049,
+        "lat": 55.77273
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526779_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526779_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526774_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526775_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526777_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526778_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526780_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/1284650_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526781_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526782_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/1284651_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526783_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/526784_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115936/1284652_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;7 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 116</p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Замечательная 1-комнатная квартира-студия премиум-класса с дизайнерским евроремонтом в бежево-кофейных тонах в Грузинском переулке в 5 минутах от м. Белорусская. Квартира комфортна для проживания 3 человек. В квартире: двуспальная кровать и односпальный диван. </p><p>Квартира расположена в историческом центре Москвы недалеко от самой знаменитой улицы Москвы - Тверской. В шаговой доступности Московский зоопарк, спорткомплекс «Олимпийский» и Выставочный центр «Экспоцентр на Красной Пресне». </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 268358,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "улица Климашкина, 12",
+      "url": "https://kvartirka.com/russia/moskva/apartment-268358.html",
+      "coordinates": {
+        "lon": 37.574096000000054,
+        "lat": 55.76844
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2197992_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 12628,
+        "flats_count": 9,
+        "name": "Сообщество Собственников",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 915 329-02-02",
+            "normalized": "+79153290202"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2197992_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2197994_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2197997_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2197999_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2198000_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2198001_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2198002_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2198004_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/268/268358/2198006_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;13 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Дорогой Гость квартира ( Студия ) находится в 10,12,14 минутах ходьбы от метро Белорусская, Краснопресненская,Баррикадная. (размещения до 2 человек) . С евро ремонтом, есть вся необходимая мебель и бытовая техника, свежее постельное бельё, приветливый персонал и уютная обстановка для комфортабельного проживания..</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 281004,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Грузинский переулок, 12",
+      "url": "https://kvartirka.com/russia/moskva/apartment-281004.html",
+      "coordinates": {
+        "lon": 37.580113,
+        "lat": 55.773246
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2800,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379799_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 37233,
+        "flats_count": 39,
+        "name": "Moskva4you",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 820-25-89",
+            "normalized": "+79258202589"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379799_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379800_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379801_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379802_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379803_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379804_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379805_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379806_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379807_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379808_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379809_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379810_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379811_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379812_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/281/281004/2379813_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;6 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>В комнате: стеклопакеты, современный гарнитур, зеркальный шкаф купе, двуспальная кровать, двуспальный диван, телевизор, ДВД, высокоскоростной интернет. Размещение до 4-х человек. В кухне: новый кухонный гарнитур, холодильник, СВЧ, эл. чайник, стол, набор необходимой посуды, утюг, гладильная доска. Постельное белье, полотенца.</p><p>Дополнительная информация</p><p>Бронирование: Гарантированная бронь квартиры по телефону, прямая аренда без посредников. </p><p>Расчетный час: Заезд с 13. 00 Выезд до 12. 00, однако, если квартира освобождается до расчетного часа – мы всегда готовы пойти вам навстречу и заселить вас пораньше. </p><p>Квартира: Всегда качественная уборка, свежее постельное белье и полотенца. Исправная сантехника и электрика. Есть все для комфортного проживания. </p><p>Интернет: Высокоскоростной Wi-Fi + выделенная линия (установлен роутер) </p><p>Оплата/документы: Возможна как за наличные, так и по безналичному расчету. Предоставляются документы: Договор, счет, акт, кассовый чек, форма 3-г. Внимание! Условия предоставления уточняйте при бронировании. Заключаем договора с организациями с оплатой по безналичному расчету. </p><p>Условия: Квартиры предоставляются только для комфортного проживания. Не допускается проведение мероприятий, вечеринок, праздников</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 114330,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Грузинский пер., 16",
+      "url": "https://kvartirka.com/russia/moskva/apartment-114330.html",
+      "coordinates": {
+        "lon": 37.580077,
+        "lat": 55.773773
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2900,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/1282300_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/1282300_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554816_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554817_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554818_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554819_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554820_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554821_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554822_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554823_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/1282301_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554824_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554825_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554826_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554827_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/1282302_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554828_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554829_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554830_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/114/114330/554831_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;6 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 15:00 до 22:00</li><li>Выселение в 13:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 039 </p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Уютная 1-комнатная квартира премиум-класса на Грузинском переулке в 5 минутах от м.Белорусская. Квартира комфортна для проживания 4 человек. В квартире: двуспальная кровать и двуспальный диван. </p><p>Квартира расположена в историческом центре Москвы недалеко от самой знаменитой улицы Москвы - Тверской. В шаговой доступности - Московский зоопарк, спорткомплекс «Олимпийский» и Выставочный центр «Экспоцентр на Красной Пресне». </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 290568,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Проспект Мира",
+      "rooms": 1,
+      "address": "Грохольский переулок, 10/5",
+      "url": "https://kvartirka.com/russia/moskva/apartment-290568.html",
+      "coordinates": {
+        "lon": 37.635557,
+        "lat": 55.776537
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497077_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 188024,
+        "flats_count": 17,
+        "name": "Любовь",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": true,
+        "phones": [
+          {
+            "phone": "+7 986 745-94-85",
+            "normalized": "+79867459485"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497077_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497083_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497087_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497088_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497082_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497081_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497079_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497080_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497084_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497085_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497086_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497090_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497078_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497089_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497091_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497092_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497093_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/290/290568/2497094_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;5 мин. пешком от метро «Проспект Мира».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Дом расположен в 6 минутах от метро, развитая инфраструктура, супермаркеты, банки, кафе. Бесплатная и платная стоянка для автомобилей.</p><p>В соседнем доме &#34;НИИ им.СКЛИФОСОВСКОГО.</p><p>В наших квартирах максимальная комплектация бытовой техникой и мебелью, скоростной WI-FI интернет, цифровое телевидение, полные комплекты постельного белья, махровые полотенца и многое другое! </p><p>В наших квартирах не курят и не проводятся вечеринки!</p><p>Возможна почасовая аренда, минимум на 3 часа, 1500 руб.</p><p>Цена (2,800 руб.) при ночном заезде.</p><p>Будем рады вас видеть в наших апартаментах!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": false,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 253889,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Большой Кондратьевский пер. д 4,ст1",
+      "url": "https://kvartirka.com/russia/moskva/apartment-253889.html",
+      "coordinates": {
+        "lon": 37.58280130000003,
+        "lat": 55.77227860000001
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006571_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 59634,
+        "flats_count": 60,
+        "name": "Анна Андреевна",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 903 548-49-22",
+            "normalized": "+79035484922"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006571_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006569_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006570_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006572_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006573_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006574_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006575_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006576_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006577_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006578_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006579_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006581_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006582_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006583_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006584_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006585_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006587_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006588_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006589_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006591_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253889/2006592_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;7 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Квартиры НЕ СДАЮТСЯ несовершеннолетним, и ПОД МЕРОПРИЯТИЯ более 5 человек. </p><p>Комфортная однокомнатная квартира располагается в уютном районе Москвы. Всего в 15 минутах ходьбы крупнейший госпиталь Бурденко, в 10 минутах детская Филатовская больница, в 15 минутах пешком – Патриаршие пруды. В шаговой доступности ул. 1-я Тверская Ямская, Миусский сквер и Миусская площадь, Собор непорочного зачатия Пресвятой Девы Марии, в 10 минутах пешком Московский зоопарк, множество ресторанов и кафе.</p><p>Удобная транспортная развязка: улица выходит на ул. Грузинский Вал, метро Белорусская в 4 минутах ходьбы, метро Маяковская в 8 минутах. В шаговой доступности ж/д вокзал Белорусский – всего в 6 минутах пешком.</p><p>Наши однокомнатные апартаменты оформлены в современном дизайне с уникальным интерьером в восточном стиле. Благоустроенная квартира, просторная большая комната, светлая кухня, совмещенный санузел. В квартире с комфортом разместится семья из 4-х человек, есть вся необходимая бытовая техника. </p><p> В стоимость бронирования не входит плата за финальную уборку 500 рублей, которая оплачивается дополнительно.</p><p>НАШИ ПРЕИМУЩЕСТВА:</p><p>- высочайшие стандарты качества;</p><p>- гарантированная бронь квартиры по телефону;</p><p>- удобные способы оплаты: наличными и по безналу для юр.лиц (о необходимости отчетных документов необходимо сообщить по телефону), прямая аренда без посредников;</p><p>- бонусная карта при заполнении анкеты в момент заезда и при наличии отзыва от Вас;</p><p>- дисконтная программа для постоянных клиентов;</p><p>- фото и расположение квартиры полностью соответствуют действительности;</p><p>Стоимость размещения варьируется от длительности проживания, количества гостей и сезона, уточняйте у менеджера по телефону.</p><p>ПРАВИЛА ПРОЖИВАНИЯ:</p><p>ВРЕМЯ ПРЕБЫВАНИЯ: после 13:00 (с 23:00 и позднее отдельная доплата за ночное заселение)</p><p>ВРЕМЯ ВЫЕЗДА: до 11:00</p><p>Курение в квартире ЗАПРЕЩЕНО!При не соблюдении правил проживания накладывается ШТРАФ и выселение из квартиры в одностороннем порядке.</p><p>УВАЖАЕМЫЕ ГОСТИ, мы будем рады видеть ВАС и ответить на все Ваши вопросы! </p><p>Добро пожаловать в Москву!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 263484,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Менделеевская",
+      "rooms": 1,
+      "address": "новолесная 3-5с1",
+      "url": "https://kvartirka.com/russia/moskva/apartment-263484.html",
+      "coordinates": {
+        "lon": 37.590869999999995,
+        "lat": 55.7821745
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 1400,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129675_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 36709,
+        "flats_count": 19,
+        "name": "Свой Дом",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 964 778-99-28",
+            "normalized": "+79647789928"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129675_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129677_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129676_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129678_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129679_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129680_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129681_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129682_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129673_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263484/2129674_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;9 мин. пешком от метро «Менделеевская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>В аренду предлагается по-домашнему уютная и в то же время современная светлая квартира со всеми удобствами. Удобное расположение между тремя станциями метро. Исторический центр города, развитая инфраструктура и удобное транспортное сообщение, огромнейшее количество музеев, скверов, достопримечательностей, кафе и ресторанов, НИИ им. Бурденко пешком, 25 минут прогулочным шагом до Кремля по центральной улице столицы. В квартире есть все необходимое для проживания: качественное постельное белье, тапочки, полотенца, ср-ва гигиены, быт. техника и пр. Отчетные документы и трансфер по запросу. Мы всегда Вам рады!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 267846,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Баррикадная",
+      "rooms": 1,
+      "address": "Большая Грузинская улица 40к2",
+      "url": "https://kvartirka.com/russia/moskva/apartment-267846.html",
+      "coordinates": {
+        "lon": 37.58181123809811,
+        "lat": 55.76858233853644
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 1400,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191293_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 36709,
+        "flats_count": 19,
+        "name": "Свой Дом",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 964 778-99-28",
+            "normalized": "+79647789928"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191293_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191294_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191295_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191297_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191298_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191299_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191300_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191301_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/267/267846/2191302_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;14 мин. пешком от метро «Баррикадная».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>В аренду предлагается по-домашнему уютная и в то же время современная светлая квартира со всеми удобствами. Исторический центр города, развитая инфраструктура и удобное транспортное сообщение, огромнейшее количество музеев, скверов, достопримечательностей, кафе и ресторанов, НИИ им. Бурденко пешком, 20 минут прогулочным шагом до Кремля по центральной улице столицы. В квартире есть все необходимое для проживания: качественное постельное белье, тапочки, полотенца, ср-ва гигиены, быт. техника и пр. Отчетные документы и трансфер по запросу. Мы всегда Вам рады!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 240060,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Маяковская",
+      "rooms": 1,
+      "address": "1-я Тверская-Ямская улица, 7",
+      "url": "https://kvartirka.com/russia/moskva/apartment-240060.html",
+      "coordinates": {
+        "lon": 37.59280030024718,
+        "lat": 55.771499968491284
+      },
+      "description": "Wi-Fi, отчетные док-ты, вечеринки, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 1300,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838492_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 36709,
+        "flats_count": 19,
+        "name": "Свой Дом",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 964 778-99-28",
+            "normalized": "+79647789928"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838492_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838491_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838493_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838489_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838490_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240060/1838494_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;5 мин. пешком от метро «Маяковская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Вечеринки разрешены</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Кухня полностью оборудована всем для вашего комфорта: свч, чайник, стиральная машина автомат. Помыть посуду можно наслаждаясь прекрасным видом из окна. </p><p>Дом расположен в историческом центре Москвы. В 2-х минутах пешком станция Метро Маяковская, Садовое кольцо и Тверская улица. Вся инфраструктура в шаговой доступности. Недалеко Белорусский вокзал, терминал аэроэкспресса аэропорта Шереметьево. </p><p>Напротив дома центральный вход в НИИ им. Бурденко, в минуте пешком ОАО Медицина и в 5 минутах пешком Офтальмологический центр Коновалова. </p><p>Для наших гостей всегда свежее качественное белье и полотенца, высокоскоростной интернет wi-fi, </p><p>кабельное телевидение.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "1 км"
+    },
+    {
+      "id": 265957,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Сухаревская",
+      "rooms": 1,
+      "address": "проспект Мира, 31",
+      "url": "https://kvartirka.com/russia/moskva/apartment-265957.html",
+      "coordinates": {
+        "lon": 37.632566999999995,
+        "lat": 55.78012200000001
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163649_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 48989,
+        "flats_count": 8,
+        "name": "Моспак",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 916 700-12-36",
+            "normalized": "+79167001236"
+          },
+          {
+            "phone": "+7 905 520-80-10",
+            "normalized": "+79055208010"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163649_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163650_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163642_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163651_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163652_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163644_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163653_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163654_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163655_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163656_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163657_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163659_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163660_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163662_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/265/265957/2163663_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;односпальных и&nbsp;1&nbsp;двуспальное место.&#32;10 мин. пешком от метро «Сухаревская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Сдается посуточно 1-комнатная квартира рядом со ст. м. Проспект Мира (1 минут ходьбы). 3-ый этаж 9-ти этажного дома. Обычный ремонт. Размещение до 4-ех человек (2+1+1). В комнате: двуспальная кровать два раскладывающихся кресла раскладушка, также есть телевизор и проигрыватель для видео. На кухне: кухонный стол, стулья, плита, холодильник, микроволновая печь, стиральная машина, чайник, посуда. Кроме того, в квартире проведен высокоскоростной беспроводной интернет (Wi-Fi), также имеется фен, вентилятор, утюг, гладильная доска. Постельное белье, полотенца предоставляются. </p><p>При заезде в квартиру необходимо иметь Паспорт и залог 2000р </p><p>возвращается по выезду, приемки квартиры.</p><p>Командировочным предоставляем, отчетные документы, ТРАНСФЕР. РАСЧЕТНЫЙ ЧАС 12:00 ДНЯ.</p><p>В квартире запрещено: Курить, шуметь, устраивать праздники и вечеринки.</p><p>Цена в объявлении действует на заезды текущего дня. Цены для заездов на другие даты могут отличаться, уточняйте, пожалуйста, информацию у менеджера по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 224191,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Белорусская",
+      "rooms": 1,
+      "address": "Большая Грузинская улица, 63",
+      "url": "https://kvartirka.com/russia/moskva/apartment-224191.html",
+      "coordinates": {
+        "lon": 37.58488799999998,
+        "lat": 55.77291899999999
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, микроволновка, ТВ",
+      "prices": {
+        "day": 2700,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640242_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 12326,
+        "flats_count": 1,
+        "name": "Елена",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 915 206-78-34",
+            "normalized": "+79152067834"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640242_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640243_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640244_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640245_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640246_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640247_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640248_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640249_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640250_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640251_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640252_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640253_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640255_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640256_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224191/1640257_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;5 мин. пешком от метро «Белорусская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 93339,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Маяковская",
+      "rooms": 1,
+      "address": "переулок Ермолаевский, 16",
+      "url": "https://kvartirka.com/russia/moskva/apartment-93339.html",
+      "coordinates": {
+        "lon": 37.592851,
+        "lat": 55.765372
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604415_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 24258,
+        "flats_count": 10,
+        "name": "Олег",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 985 784-44-78",
+            "normalized": "+79857844478"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604415_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604416_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604417_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604418_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604419_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604420_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604421_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604422_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604423_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604424_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604425_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604426_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604427_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/93/93339/604428_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;7 мин. пешком от метро «Маяковская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 16:00 до 22:00</li><li>Выселение в 14:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Сдаётся красивая квартира с НОВОЙ МЕБЕЛЬЮ, ПОСЛЕ РЕМОНТА, в 5 минутах ходьбы от метро &#34;Маяковская&#34; и 10 минутах от метро &#34;Пушкинская&#34;. Спальных мест 2+2 (двуспальный диван и большая двуспальная кровать). </p><p>Квартира оснащена всем необходимым для комфортного проживания, включая: ИНТЕРНЕТ Wi-Fi, ТЕХНИКУ, телевизор HD + кабельное ТВ, посудомоечную машину, СВЧ, посуду для приготовления пищи, питьевую воду, чай, кофе, соль, сахар, шампунь, мыло, гель для душа, стиральный порошок, и другие принадлежности. </p><p>Предоставляются полные комплекты постельного белья и комплекты белых махровых полотенец. </p><p>Наличный и безналичный расчет, отчетные документы для командировочных!</p><p>Около дома большая детская площадка, будем рады гостям с детьми!</p><p>Цена варьируется в зависимости от количества людей и длительности срока аренды. </p><p>Действует скидка % от длительности проживания!</p><p>8(985)78-444-78 Олег</p><p>Апартаменты расположены поблизости от основных достопримечательностей города - например, до Патриарших прудов можно дойти пешком всего за 1 минуту, до Тверской улицы и одноименной станции метро всего за 10 минут, до Старого Арбата за 15 минут. Большой театр и Красная площадь расположены в 1 остановке на метро. Из окна видно Московский музей современного искусства “Ермолаевский 17”. В нескольких минутах ходьбы от апартаментов работают различные кафе и рестораны. </p><p>Белорусский вокзал, откуда можно без пересадок добраться до аэропорта &#34;Шереметьево&#34;, расположен в 2 станциях метро от апартаментов. Поезда до аэропорта &#34;Домодедово&#34; отравляются с Павелецкого вокзала, до которого можно доехать на метро за 7 минут.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "1 км"
+    },
+    {
+      "id": 253631,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Цветной бульвар",
+      "rooms": 1,
+      "address": "2-й Волконский переулок",
+      "url": "https://kvartirka.com/russia/moskva/apartment-253631.html",
+      "coordinates": {
+        "lon": 37.616273977840365,
+        "lat": 55.77585887881805
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000014_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 72753,
+        "flats_count": 38,
+        "name": "Елена",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 906 711-08-13",
+            "normalized": "+79067110813"
+          },
+          {
+            "phone": "+7 925 635-30-77",
+            "normalized": "+79256353077"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000014_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000015_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2042729_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000017_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000018_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000019_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/253/253631/2000020_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;8 мин. пешком от метро «Цветной бульвар».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Квартира для сдачи посуточно и на часы, рядом с метро Цветной Бульвар, Достоевская, Сухаревская. Чистая, светлая. Постельное бельё, полотенца предоставляются. wi-fi. Командированным предоставляем отчетные документы. Заселение при наличии паспорта. Качественная уборка перед каждым заездом гостей. Заселение круглосуточно.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 62515,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "ул. Красная Пресня, дом 11",
+      "url": "https://kvartirka.com/russia/moskva/apartment-62515.html",
+      "coordinates": {
+        "lon": 37.572324,
+        "lat": 55.761183
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2700,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420787_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 16332,
+        "flats_count": 7,
+        "name": "Лидер",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 508-55-72",
+            "normalized": "+79255085572"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420787_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420791_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/160242_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/160247_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420785_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420788_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420790_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420792_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420793_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420795_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420796_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420797_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420798_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420799_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/62/62515/1420800_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;4 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Минимальный срок проживания 2 дня</li><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Рядом зоопарк, удобно добираться до Экспоцентра.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 223583,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "Красная Пресня улица, 8",
+      "url": "https://kvartirka.com/russia/moskva/apartment-223583.html",
+      "coordinates": {
+        "lon": 37.57414330000006,
+        "lat": 55.7613844
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643238_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 4870,
+        "flats_count": 60,
+        "name": "MoscowSutki",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 926 423-05-35",
+            "normalized": "+79264230535"
+          },
+          {
+            "phone": "+7 926 078-88-25",
+            "normalized": "+79260788825"
+          },
+          {
+            "phone": "+7 926 036-80-10",
+            "normalized": "+79260368010"
+          },
+          {
+            "phone": "+7 925 466-80-78",
+            "normalized": "+79254668078"
+          },
+          {
+            "phone": "+7 925 281-54-32",
+            "normalized": "+79252815432"
+          },
+          {
+            "phone": "+7 903 234-56-76",
+            "normalized": "+79032345676"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643238_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643237_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643239_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643240_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643235_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643236_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643241_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643242_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223583/1643243_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;2 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>При заселении необходимо предъявить 2 паспорта для оформления договора об аренде. </p><p>Расчетный час в 12:00. Ранний заезд - +2000руб к стоимости проживания. Поздний выезд: до 15:00 - +1000руб, до 18:00 - +1500руб, до 21:00 - +2000руб, до 00:00 - +2500руб. </p><p>Новый Год: минимальный срок проживания c 31. 12 по 2. 01 (3 суток), общая стоимость - 15000р.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 224498,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Краснопресненская",
+      "rooms": 1,
+      "address": "улица Заморенова, 14/16",
+      "url": "https://kvartirka.com/russia/moskva/apartment-224498.html",
+      "coordinates": {
+        "lon": 37.57283000000007,
+        "lat": 55.759928
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2900,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643256_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 4870,
+        "flats_count": 60,
+        "name": "MoscowSutki",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 926 423-05-35",
+            "normalized": "+79264230535"
+          },
+          {
+            "phone": "+7 926 078-88-25",
+            "normalized": "+79260788825"
+          },
+          {
+            "phone": "+7 926 036-80-10",
+            "normalized": "+79260368010"
+          },
+          {
+            "phone": "+7 925 466-80-78",
+            "normalized": "+79254668078"
+          },
+          {
+            "phone": "+7 925 281-54-32",
+            "normalized": "+79252815432"
+          },
+          {
+            "phone": "+7 903 234-56-76",
+            "normalized": "+79032345676"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643256_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643257_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643258_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643259_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643260_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/224/224498/1643261_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;4 мин. пешком от метро «Краснопресненская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Круглосуточно! Без комиссии и дополнительных плат. Однокомнатная квартира на сутки. 2 минуты пешком м. Улица 1905 года. Квартира чистая и аккуратная. Спальное место: двуспальный диван и двуспальная кровать. Встроенная кухня. Вся необходимая бытовая техника. Мет дверь домофон. Безлимитный интернет. Отчетные документы. Постельные принадлежности. Скидка на ночное заселение!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 223591,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Чистые пруды",
+      "rooms": 1,
+      "address": "Гусятников переулок, 9",
+      "url": "https://kvartirka.com/russia/moskva/apartment-223591.html",
+      "coordinates": {
+        "lon": 37.64206899999999,
+        "lat": 55.764281
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 3000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632813_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 4870,
+        "flats_count": 60,
+        "name": "MoscowSutki",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 926 423-05-35",
+            "normalized": "+79264230535"
+          },
+          {
+            "phone": "+7 926 078-88-25",
+            "normalized": "+79260788825"
+          },
+          {
+            "phone": "+7 926 036-80-10",
+            "normalized": "+79260368010"
+          },
+          {
+            "phone": "+7 925 466-80-78",
+            "normalized": "+79254668078"
+          },
+          {
+            "phone": "+7 925 281-54-32",
+            "normalized": "+79252815432"
+          },
+          {
+            "phone": "+7 903 234-56-76",
+            "normalized": "+79032345676"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632813_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632814_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632815_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632816_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632817_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632818_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632819_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632820_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632821_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/223/223591/1632822_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;4 мин. пешком от метро «Чистые пруды».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Расчетный час в 12:00. Ранний заезд - +2000руб к стоимости проживания. Поздний выезд: до 15:00 - +1000руб, до 18:00 - +1500руб, до 21:00 - +2000руб, до 00:00 - +2500руб. </p><p>Новый Год: минимальный срок проживания c 31. 12 по 2. 01 (3 суток), общая стоимость - 15000р.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 178688,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Новослободская",
+      "rooms": 1,
+      "address": "Сущевская, д13",
+      "url": "https://kvartirka.com/russia/moskva/apartment-178688.html",
+      "coordinates": {
+        "lon": 37.6016,
+        "lat": 55.780942
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2200,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1457678_w936h624.jpg",
+        "verified": false,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 17386,
+        "flats_count": 15,
+        "name": "Олег",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 916 093-52-78",
+            "normalized": "+79160935278"
+          },
+          {
+            "phone": "+7 495 374-51-42",
+            "normalized": "+74953745142"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1457678_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1127255_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1127256_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1127257_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1127258_w1200h800.jpg",
+          "verified": false
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/178/178688/1127259_w1200h800.jpg",
+          "verified": false
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>2&nbsp;двуспальных места.&#32;4 мин. пешком от метро «Новослободская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ФОТО соответствуют 100%. Чистая, ухоженная квартир в двух минута от метро Новослободская. Помимо того что видно на фото гостю предоставляется:</p><p>- чистое постельное белье</p><p>- мягкие полотенца</p><p>- высокоскоростной интернет wi-fi</p><p>- кабельное телевидение</p><p>- стиральная машина</p><p>- утюг и гладильная доска</p><p>- фен</p><p>- микроволновая печь</p><p>- плита</p><p>- чайник</p><p>В наших квартирах не курят. Дом очень тихий и спокойный, поэтому желательно не шуметь после 23 часов. Предоставляются сезонные скидки.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "2 км"
+    },
+    {
+      "id": 89413,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Савеловская",
+      "rooms": 1,
+      "address": "ул. Бутырская, 15",
+      "url": "https://kvartirka.com/russia/moskva/apartment-89413.html",
+      "coordinates": {
+        "lon": 37.583257,
+        "lat": 55.797534
+      },
+      "description": "Студия, кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, утюг, ТВ",
+      "prices": {
+        "day": 2200,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090479_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 18105,
+        "flats_count": 3,
+        "name": "Виктория",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 823-27-15",
+            "normalized": "+79258232715"
+          },
+          {
+            "phone": "+7 914 548-59-29",
+            "normalized": "+79145485929"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090479_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090476_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090497_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090478_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090494_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090486_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090474_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090468_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917466_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090472_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917459_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090469_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917460_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917461_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090473_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090499_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917462_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090498_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917463_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090475_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917464_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/1090477_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917465_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917467_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917468_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917469_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917470_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917471_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/89/89413/917472_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Студия",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;2&nbsp;двуспальных места.&#32;13 мин. пешком от метро «Савеловская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 74
+      },
+      "distance_from_point_text": "4 км"
+    },
+    {
+      "id": 238364,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "",
+      "rooms": 1,
+      "address": "2 квесисская 21",
+      "url": "https://kvartirka.com/russia/moskva/apartment-238364.html",
+      "coordinates": {
+        "lon": 37.57759869999995,
+        "lat": 55.7948393
+      },
+      "description": "Студия, кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, утюг, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223824_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 18105,
+        "flats_count": 3,
+        "name": "Виктория",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 823-27-15",
+            "normalized": "+79258232715"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223824_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223826_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223827_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223828_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223829_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223830_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223832_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223834_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223835_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223836_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223837_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223839_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223840_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223841_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223842_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/238/238364/2223843_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Студия",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;4&nbsp;двуспальных места.&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 13:00 до 22:00</li><li>Выселение в 11:00</li><li>Другое время по согласованию</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Апартаменты в центре Москвы предоставляют высококлассные услуги по размещению туристов, бизнеcменов, представителей российских и иностранных фирм, предоставляя полностью укомплектованные номера квартирного типа на длительный или короткий период. Апартаменты размещаются в самом сердце г. Москва К апартаментам ведут удобные подъездные пути, благоустроена и освещена прилега-ющая территория.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 74
+      },
+      "distance_from_point_text": "4 км"
+    },
+    {
+      "id": 263523,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Курская",
+      "rooms": 1,
+      "address": "Старая Басманная 6с2",
+      "url": "https://kvartirka.com/russia/moskva/apartment-263523.html",
+      "coordinates": {
+        "lon": 37.657858499999975,
+        "lat": 55.7644207
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 1600,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130152_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 45153,
+        "flats_count": 44,
+        "name": "UNO-Estate",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 926 950-66-99",
+            "normalized": "+79269506699"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130152_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130153_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130154_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130155_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130156_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130157_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130158_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130159_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130162_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/263/263523/2130164_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;9 мин. пешком от метро «Курская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 22:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Можно с питомцами</li><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>Заезд после 12:00 / Выезд до 11:00.</p><p>Ранний заезд до 12:00 стоит дополнительно сумму в размере 1 суток.</p><p>Поздний выезд после 11:00 стоит 10% от суммы проживания за каждый час продления.</p><p>Бронирование возможно:</p><p>- по предоплате в размере суток на карту</p><p>- по предоплате в размере суток в офисе</p><p>(г. Москва, ст. м. Семеновская, ул. Щербаковская, д. 3, офис 508)</p><p>- по предоплате в размере 30% от общей стоимости проживания через платформу онлайн-бронирования</p><p>------------------------------------------------- -----</p><p>В аренду предлагается по-домашнему уютная и в то же время современная светлая квартира со всеми удобствами. В пешей доступности от станций метро Курская и Красные ворота - 5 минут. Исторический центр города, развитая инфраструктура и удобное транспортное сообщение, огромнейшее количество музеев и театров, скверов, достопримечательностей, кафе и ресторанов, торговых и развлекательных центров. В квартире есть все необходимое для проживания: качественное постельное белье, тапочки, полотенца, средства гигиены, бытовая техника и пр. Отчетные документы и трансфер по запросу. Мы всегда Вам рады!</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 157
+      },
+      "distance_from_point_text": "3 км"
+    },
+    {
+      "id": 240289,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Улица 1905 Года",
+      "rooms": 1,
+      "address": "1905 Года улица, 11с1",
+      "url": "https://kvartirka.com/russia/moskva/apartment-240289.html",
+      "coordinates": {
+        "lon": 37.56045199999994,
+        "lat": 55.764906
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2500,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841407_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 81279,
+        "flats_count": 7,
+        "name": "Людмила",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 968 686-78-27",
+            "normalized": "+79686867827"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841407_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841408_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841409_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841410_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841411_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841412_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841413_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841414_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841415_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841416_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841417_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841418_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841419_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841420_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841421_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/240/240289/1841422_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;3 мин. пешком от метро «Улица 1905 Года».&#32;</p><h3>Удобства</h3><ul><li>Полотенца, постельное бельё</li><li>Отопление</li><li>Горячая вода</li><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Чайник</li><li>Плита</li><li>Микроволновая печь</li><li>Посуда и приборы</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Бронирование и оплата</h3><ul><li>Залог на время заезда: 3000 <span class=\"rouble-arial\">руб.</span></li><li>Отчетные документы</li></ul><h3>Описание</h3><p>Сдается однокомнатная квартира на сутки. Стильная и уютная, оборудованная всем необходимым для комфортного проживания. Евро ремонт, кондиционер, без лимитный Wi-Fi, плита, СВЧ печь, холодильник, утюг, фен, стиральная машинка, бойлер, гладильная доска, сушилка для белья, телевизор. В квартире производится регулярная уборка. Рядом с домом остановка общественного транспорта Улица Замореного. Шаговая доступность, 1 минута, до станций метро: Улица 1905 года. В округе множество мест проведения досуга, кафе бары, рестораны, торгово-развлекательные комплексы. Также расположены: Центр международной торговли, выставочный комплекс Москва Сити и Экспоцентр на Красной Пресне. Стандартное время заезда/выезда: 12. 00, ранний заезд поздний выезд оплачиваются отдельно. Страховой депозит 3500, возвращается при выезде. КУРЕНИЕ в квартире ЗАПРЕЩЕНО. Возможна почасовая аренда квартиры, МИНИМАЛЬНЫЙ срок аренды на часы 3 часа, стоимость минимального срока аренды 2000р. Уважаемые Гости, ЦЕНЫ на квартиры зависят от срока проживания, количества человек, а так же от проведения выставок, праздников и других крупных мероприятий.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 50
+      },
+      "distance_from_point_text": "3 км"
+    },
+    {
+      "id": 239953,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Беговая",
+      "rooms": 1,
+      "address": "Беговая улица, 6",
+      "url": "https://kvartirka.com/russia/moskva/apartment-239953.html",
+      "coordinates": {
+        "lon": 37.555531599999995,
+        "lat": 55.7760879
+      },
+      "description": "Wi-Fi, отчетные док-ты, без вечеринок, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2300,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837188_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 81279,
+        "flats_count": 7,
+        "name": "Людмила",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 968 686-78-27",
+            "normalized": "+79686867827"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837188_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837201_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837202_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837203_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837204_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837205_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837206_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837207_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837208_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837209_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837210_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837211_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837212_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837213_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/239/239953/1837214_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;8 мин. пешком от метро «Беговая».&#32;</p><h3>Удобства</h3><ul><li>Полотенца, постельное бельё</li><li>Отопление</li><li>Горячая вода</li><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Чайник</li><li>Плита</li><li>Микроволновая печь</li><li>Посуда и приборы</li><li>Духовка</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 14:00 до 22:00</li><li>Выселение в 12:00</li><li>Другое время по согласованию</li></ul><h3>Доступная среда</h3><ul><li>Лифт</li></ul><h3>Правила дома</h3><ul><li>Курение разрешено</li></ul><h3>Бронирование и оплата</h3><ul><li>Залог на время заезда: 2800 <span class=\"rouble-arial\">руб.</span></li><li>Отчетные документы</li></ul><h3>Описание</h3><p>Все необходимое для комфортного проживания: посуда, постельное белье, полотенца, бытовая техника, интернет(wi-fi), телевизор, стиральная машина. </p><p>Комнат: 1</p><p>Кол-во гостей: 3</p><p>Спальные места: 2+1</p><p>Площадь: 38 кв. м. </p><p>Ремонт: евро</p><p>Лифт: есть</p><p>Метро: Беговая, 5 мин. от метро</p><p>Цена зависит от срока аренды, количества проживающих, выставок и других мероприятий.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 50
+      },
+      "distance_from_point_text": "4 км"
+    },
+    {
+      "id": 115930,
+      "city_id": 18,
+      "building_type": "flat",
+      "metro": "Киевская",
+      "rooms": 1,
+      "address": "Бережковская наб., 8",
+      "url": "https://kvartirka.com/russia/moskva/apartment-115930.html",
+      "coordinates": {
+        "lon": 37.566288,
+        "lat": 55.739458
+      },
+      "description": "Кондиционер, Wi-Fi, отчетные док-ты, без вечеринок, не курить, cтир. машина, микроволновка, утюг, ТВ",
+      "prices": {
+        "day": 2000,
+        "night": 0,
+        "hour": 0
+      },
+      "photo_default": {
+        "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657289_w936h624.jpg",
+        "verified": true,
+        "width": 936,
+        "height": 624
+      },
+      "contacts": {
+        "id": 10958,
+        "flats_count": 60,
+        "name": "Кварт-Отель",
+        "skype": "",
+        "vk_profile": "",
+        "send_booking_request_allowed": true,
+        "show_prepayment_warning": false,
+        "phones": [
+          {
+            "phone": "+7 925 511-02-13",
+            "normalized": "+79255110213"
+          }
+        ]
+      },
+      "photos": [
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657289_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657290_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460168_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657292_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657293_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657291_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657294_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460170_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460171_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460172_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460173_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460174_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460175_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657295_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1657296_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460176_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460177_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460178_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460179_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460180_w1200h800.jpg",
+          "verified": true
+        },
+        {
+          "url": "https://media.kvartirka.com/thumbs/flat/0/115/115930/1460181_w1200h800.jpg",
+          "verified": true
+        }
+      ],
+      "title": "Однокомнатная квартира",
+      "description_full": "<p>1&nbsp;односпальное и&nbsp;1&nbsp;двуспальное место.&#32;7 мин. пешком от метро «Киевская».&#32;</p><h3>Удобства</h3><ul><li>Беспроводной интернет (Wifi)</li><li>Телевизор</li><li>Кондиционер</li><li>Стиральная машина</li><li>Утюг</li><li>Фен</li></ul><h3>Приготовление еды</h3><ul><li>Плита</li><li>Микроволновая печь</li><li>Холодильник</li></ul><h3>Сроки, заселение и выезд</h3><ul><li>Заселение с 12:00 до 21:00</li><li>Выселение в 10:00</li><li>Другое время по согласованию</li></ul><h3>Бронирование и оплата</h3><ul><li>Отчетные документы</li></ul><h3>Описание</h3><p>ID 114</p><p>АКЦИЯ! Заезды на ближайшие две недели - БЕЗ ЗАЛОГА!</p><p>Прекрасная 1-комнатная квартира бизнес-класса на Бережковской набережной вблизи от метро Киевская. Квартира комфортна для проживания 3 человек. В квартире: двуспальная кровать и раскладной пуф. </p><p>Квартира расположена в историческом центре Москвы, в непосредственной близости от Министерства иностранных дел РФ, ЦВК «Экспоцентр», бизнес-центра «Москва-Сити» и посольств различных государств. Недалеко расположены главные достопримечательности столицы – Красная Площадь, Кремль, Большой Театр, Государственная Третьяковская Галерея и многие другие. В шаговой доступности Новодевичий монастырь, Поклонная гора, площадь Европы, Триумфальная арка. </p><p>Квартира сдается без посредников,фото квартиры полностью соответствуют действительности.</p><p>В квартире безлимитный высокоскоростной wi-fi интернет. Бытовая техника: телевизор, холодильник, электрочайник, микроволновая печь, плита, утюг, фен ,стиральная машина, гладильная доска. Есть вся необходимая посуда для приготовления еды, фильтр для очистки воды и другие приятные мелочи. Заселение в квартиру возможно в любое удобное для вас время после 15.00 часов, выселение – до 11.00 часов. Квартира сдается строго некурящим гостям! Гостям старше 21 года! Указанная цена действует при аренде квартиры на текущий и следующий день. Цену на более поздние даты уточняйте по телефону.</p>",
+      "badges": {
+        "owner_confirmed": false,
+        "more_than_year": true,
+        "payed": 0
+      },
+      "distance_from_point_text": "4 км"
+    }
+  ]
+}

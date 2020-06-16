@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/listFlatsFragment">
+    <fragment
+        android:id="@+id/listFlatsFragment"
+        android:name="com.reschikov.kvartirka.testtask.ui.fragments.ListFlatsFragment"
+        android:label="ListFlatsFragment" >
+        <action
+            android:id="@+id/action_listFlatsFragment_to_flatFragment"
+            app:destination="@id/flatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flatFragment"
+        android:name="com.reschikov.kvartirka.testtask.ui.fragments.FlatFragment"
+        android:label="FlatFragment" >
+        <action
+            android:id="@+id/action_flatFragment_to_photoFragment"
+            app:destination="@id/photoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.reschikov.kvartirka.testtask.ui.fragments.PhotoFragment"
+        android:label="PhotoFragment" />
+</navigation>
