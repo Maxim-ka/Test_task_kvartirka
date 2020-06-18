@@ -27,5 +27,6 @@ interface ApiBetaKvartirkaPro {
                    @Query("device_screen_height") heightPx : Int,
                    @Query("point_lng") lng : Double,
                    @Query("point_lat") lat : Double,
-                   @Query("city_id ") cityId  : Int) : Call<ReplyFlats>
+                   @Query("city_id ") cityId  : Int,
+                   @Query("meta") meta : String) : Call<ReplyFlats>
 }

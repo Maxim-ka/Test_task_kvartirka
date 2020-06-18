@@ -1,6 +1,8 @@
 package com.reschikov.kvartirka.testtask.di
 
+import com.reschikov.kvartirka.testtask.data.Mapping
 import com.reschikov.kvartirka.testtask.data.Repository
+import com.reschikov.kvartirka.testtask.data.Transformable
 import com.reschikov.kvartirka.testtask.ui.viewmodel.Derivable
 import dagger.Binds
 import dagger.Module
@@ -12,4 +14,7 @@ interface AppModule {
     @Binds
     @Singleton
     fun bindDerivable(repository: Repository) : Derivable
+
+    @Binds
+    fun bindTransformable(mapping: Mapping) : Transformable
 }

@@ -1,11 +1,13 @@
 package com.reschikov.kvartirka.testtask.data.network.requestprovider
 
 import android.os.Build
+import com.google.gson.Gson
 import com.reschikov.kvartirka.testtask.BuildConfig
 import com.reschikov.kvartirka.testtask.data.Requestable
 import com.reschikov.kvartirka.testtask.data.network.model.ReplyCities
 import com.reschikov.kvartirka.testtask.data.network.model.ReplyFlats
 import com.reschikov.kvartirka.testtask.data.network.request.ApiBetaKvartirkaPro
+import com.reschikov.kvartirka.testtask.domain.Meta
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -34,9 +36,10 @@ class KvartirkaProvider @Inject constructor(private val request: ApiBetaKvartirk
     }
 
     @Throws
-    override suspend fun getListFlats(widthPx : Int, heightPx : Int, pointLat: Double, pointLng: Double, cityId: Int): ReplyFlats {
+    override suspend fun getListFlats(widthPx : Int, heightPx : Int, pointLat: Double, pointLng: Double, cityId: Int, meta: Meta): ReplyFlats {
+        val metaStr = Gson().toJson(meta)
         return suspendCoroutine{continuation ->
-            request.getFlats(TEST, TEST, numberOS, version, widthPx, heightPx, pointLng, pointLat, cityId)
+            request.getFlats(TEST, TEST, numberOS, version, widthPx, heightPx, pointLng, pointLat, cityId, metaStr)
                 .enqueue(getCallBack<ReplyFlats>(continuation))
         }
     }

@@ -4,7 +4,6 @@ import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
 import android.location.Location
-import android.util.Log
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.*
 import com.google.android.gms.tasks.Task
@@ -39,7 +38,6 @@ class GoogleCoordinateDeterminant(private val context: Context) : BaseCoordinate
                 } else {
                     lcb = object : LocationCallback() {
                         override fun onLocationResult(locationResult: LocationResult?) {
-                            Log.i("TAG onLocationResult", locationResult.toString())
                             locationResult?.let {result ->
                                 val location = result.lastLocation
                                 if (location.accuracy <= setAccuracy) {

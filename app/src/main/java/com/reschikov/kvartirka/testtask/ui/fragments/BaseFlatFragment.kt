@@ -19,9 +19,9 @@ abstract class BaseFlatFragment : Fragment(R.layout.fragment_list), OnItemClickL
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        createRecycler()
         activity?.let {
             updateable = ViewModelProvider(it, factory).get(MainViewModel::class.java)
         }
-        createRecycler()
     }
 }
