@@ -1,19 +1,15 @@
 package com.reschikov.kvartirka.testtask.data
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import androidx.paging.DataSource
-import androidx.paging.Pager
-import androidx.paging.PagingConfig
-import androidx.paging.PagingData
-import com.reschikov.kvartirka.testtask.data.network.model.Flat
 import com.reschikov.kvartirka.testtask.domain.Meta
 import com.reschikov.kvartirka.testtask.domain.Reply
 import com.reschikov.kvartirka.testtask.domain.Request
 import com.reschikov.kvartirka.testtask.ui.viewmodel.Derivable
+import kotlinx.coroutines.*
 import javax.inject.Inject
 import javax.inject.Singleton
+import kotlin.coroutines.CoroutineContext
 
 private const val LAT_MOSCOW = 55.753960
 private const val LNG_MOSCOW = 37.620393
@@ -25,54 +21,48 @@ class Repository @Inject constructor(private val checkNetWork: LiveData<String?>
                                      private val transformable: Transformable)
     : Derivable {
 
-    private val netWorkLiveData = MutableLiveData<String?>()
-    private val isProgressLiveData = MutableLiveData<Boolean>()
     private val observerNetWork by lazy {
-        Observer<String?> { netWorkLiveData.postValue(it) }
+        Observer<String?> { it?.let{ coroutineRepository.cancel(CancellationException(it)) }}
     }
+    private lateinit var coroutineRepository : CoroutineContext
 
     init {
         checkNetWork.observeForever(observerNetWork)
     }
 
-    override fun getStateNet(): LiveData<String?> = netWorkLiveData
-    override fun isProgress(): LiveData<Boolean> = isProgressLiveData
-
-    override suspend fun requestListOfAds(widthPx : Int, heightPx : Int, isLocal: Boolean, meta: Meta): Pair<Reply?, Throwable?> {
-        isProgressLiveData.postValue(true)
-        try {
+    @Throws
+    override suspend fun requestListOfAds(widthPx : Int, heightPx : Int, isLocal: Boolean, meta: Meta): Reply {
+        coroutineRepository = Dispatchers.IO + Job()
+        return withContext(coroutineRepository) {
+            ensureActive()
             if (isLocal) {
-                definableCoordinates.getCoordinates()?.let {location ->
+                definableCoordinates.getCoordinates()?.let { location ->
+                    ensureActive()
                     getListFlats(widthPx, heightPx, location.latitude, location.longitude, meta)?.let {
-                        return Pair(it, null)
+                        return@withContext it
                     }
                 }
             }
-            return Pair(getListMoscowFlats(widthPx, heightPx, meta), null)
-        } catch (e: Exception) {
-            return Pair(null, e)
-        } finally {
-            isProgressLiveData.postValue(false)
-        }
-    }
-
-    override suspend fun requestListOfAds(request: Request, meta: Meta): Pair<Reply?, Throwable?> {
-        isProgressLiveData.postValue(true)
-        return try {
-            request.run {
-                val replyFlats = requestable.getListFlats(width, height, city.coordinates.lat, city.coordinates.lon, city.id, meta)
-                Pair(transformable.transformToReply(city, replyFlats), null)
-            }
-        } catch (e: Exception) {
-            Pair(null, e)
-        } finally {
-            isProgressLiveData.postValue(false)
+            ensureActive()
+            getListMoscowFlats(widthPx, heightPx, meta)
         }
     }
 
     @Throws
-    private suspend fun getListFlats(widthPx : Int, heightPx : Int, lat : Double, lng : Double, meta: Meta) :
-            Reply? {
+    override suspend fun requestListOfAds(request: Request, meta: Meta): Reply {
+        coroutineRepository = Dispatchers.IO + Job()
+        return withContext(coroutineRepository){
+            request.run {
+                ensureActive()
+                val replyFlats = requestable.getListFlats(width, height, point.lat, point.lon, city.id, meta)
+                transformable.transformToReply(city, replyFlats)
+            }
+        }
+    }
+
+    @Throws
+    private suspend fun getListFlats(widthPx : Int, heightPx : Int, lat : Double, lng : Double, meta: Meta)
+            : Reply? {
         val cities = requestable.getCurrentCity(lat, lng).cities
         if (cities.isEmpty()) return null
         val reply = requestable.getListFlats(widthPx, heightPx, lat, lng, cities.first().id, meta)
@@ -90,5 +80,6 @@ class Repository @Inject constructor(private val checkNetWork: LiveData<String?>
 
     override fun terminate() {
         checkNetWork.removeObserver(observerNetWork)
+        if (coroutineRepository.isActive) coroutineRepository.cancel()
     }
 }

@@ -1,8 +1,6 @@
 package com.reschikov.kvartirka.testtask.ui.fragments.adapters
 
 import android.view.ViewGroup
-import android.widget.ImageView
-import kotlinx.android.synthetic.main.item_photo.view.*
 
 class PhotoAdapter(downloadable: Downloadable) : ListPhotoAdapter(downloadable, null) {
 

@@ -4,13 +4,12 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.reschikov.kvartirka.testtask.R
 import com.reschikov.kvartirka.testtask.ui.Updateable
 import com.reschikov.kvartirka.testtask.ui.viewmodel.MainViewModel
 import com.reschikov.kvartirka.testtask.ui.viewmodel.ViewModelFactory
 import javax.inject.Inject
 
-abstract class BaseFlatFragment : Fragment(R.layout.fragment_list), OnItemClickListener{
+abstract class BaseFlatFragment<T>(resId : Int) : Fragment(resId), OnItemClickListener<T>{
 
     @Inject lateinit var factory: ViewModelFactory
     protected lateinit var updateable: Updateable

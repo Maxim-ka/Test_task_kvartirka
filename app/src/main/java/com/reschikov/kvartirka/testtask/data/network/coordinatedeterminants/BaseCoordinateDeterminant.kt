@@ -6,7 +6,7 @@ import kotlinx.coroutines.*
 
 private const val INTERVAL_UPDATE = 2_000L
 private const val MIN_ACCURACY = 200.0f
-private const val SEARCH_TIME = 20_000L
+private const val SEARCH_TIME = 10_000L
 
 abstract class BaseCoordinateDeterminant :
     DefinableCoordinates {

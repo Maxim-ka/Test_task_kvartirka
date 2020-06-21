@@ -3,13 +3,12 @@ package com.reschikov.kvartirka.testtask.ui.fragments.adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import com.reschikov.kvartirka.testtask.R
 import com.reschikov.kvartirka.testtask.data.network.model.Photo
 import com.reschikov.kvartirka.testtask.ui.fragments.OnItemClickListener
 import kotlinx.android.synthetic.main.item_photo.view.*
 
-open class ListPhotoAdapter(downloadable: Downloadable, onItemClickListener: OnItemClickListener?)
+open class ListPhotoAdapter(downloadable: Downloadable, onItemClickListener: OnItemClickListener<Photo>?)
     :  BaseListAdapter<Photo>(downloadable, onItemClickListener) {
 
     override var list: List<Photo> = listOf()

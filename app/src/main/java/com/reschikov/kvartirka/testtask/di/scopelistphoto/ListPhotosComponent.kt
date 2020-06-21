@@ -1,7 +1,6 @@
 package com.reschikov.kvartirka.testtask.di.scopelistphoto
 
 import com.reschikov.kvartirka.testtask.ui.fragments.FlatFragment
-import com.reschikov.kvartirka.testtask.ui.fragments.PhotoFragment
 import dagger.BindsInstance
 import dagger.Subcomponent
 

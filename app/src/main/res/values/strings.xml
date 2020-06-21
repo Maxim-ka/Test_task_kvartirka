@@ -8,4 +8,5 @@
     <string name="night">night- </string>
     <string name="hour">hour- </string>
     <string name="room">room: </string>
+    <string name="to_retry">to retry</string>
 </resources>

@@ -11,11 +11,11 @@ import com.reschikov.kvartirka.testtask.R
 import com.reschikov.kvartirka.testtask.data.network.model.Photo
 import com.reschikov.kvartirka.testtask.di.scopephoto.ScopePhoto
 import com.reschikov.kvartirka.testtask.ui.fragments.adapters.PhotoAdapter
-import kotlinx.android.synthetic.main.fragment_flat.*
+import kotlinx.android.synthetic.main.fragment_photos.*
 import javax.inject.Inject
 
 @ScopePhoto
-class PhotoFragment : Fragment(R.layout.fragment_flat) {
+class PhotoFragment : Fragment(R.layout.fragment_photos) {
 
     @Inject lateinit var photoAdapter: PhotoAdapter
 

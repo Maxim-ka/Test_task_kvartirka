@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.reschikov.kvartirka.testtask.ui.fragments.OnItemClickListener
 
 abstract class BaseListAdapter<T>(private val downloadable: Downloadable,
-                                  private val onItemClickListener: OnItemClickListener?)
+                                  private val onItemClickListener: OnItemClickListener<T>?)
     : RecyclerView.Adapter<BaseListAdapter.BaseItem<T>>() {
 
     abstract var list: List<T>
@@ -18,7 +18,7 @@ abstract class BaseListAdapter<T>(private val downloadable: Downloadable,
 
     override fun onViewAttachedToWindow(holder: BaseItem<T>) {
         super.onViewAttachedToWindow(holder)
-        holder.itemView.setOnClickListener{onItemClickListener?.onItemClick(holder.adapterPosition)}
+        holder.itemView.setOnClickListener{onItemClickListener?.onItemClick(list[holder.bindingAdapterPosition])}
     }
 
     override fun onViewDetachedFromWindow(holder: BaseItem<T>) {
