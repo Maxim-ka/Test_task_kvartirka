@@ -2,9 +2,9 @@ package com.reschikov.kvartirka.testtask.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.reschikov.kvartirka.testtask.ui.viewmodel.MainViewModel
-import com.reschikov.kvartirka.testtask.ui.Updateable
-import com.reschikov.kvartirka.testtask.ui.viewmodel.ViewModelFactory
+import com.reschikov.kvartirka.testtask.presentation.ui.viewmodel.MainViewModel
+import com.reschikov.kvartirka.testtask.presentation.ui.Updateable
+import com.reschikov.kvartirka.testtask.presentation.ui.viewmodel.ViewModelFactory
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
@@ -26,5 +26,4 @@ interface ViewModelModule {
     @Singleton
     @Binds
     fun bindViewModelFactory(factory: ViewModelFactory) : ViewModelProvider.Factory
-
 }

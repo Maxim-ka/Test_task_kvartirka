@@ -34,34 +34,33 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //okhttp
-    implementation ("com.squareup.okhttp3:okhttp:3.12.10"){ force = true }
+    implementation ("com.squareup.okhttp3:okhttp:3.12.10"){ version  { strictly '3.12.10' } }
     //Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
     //Dagger 2
     implementation 'com.google.dagger:dagger:2.28'
-    implementation 'com.google.dagger:dagger-android:2.28'
     implementation 'com.google.dagger:dagger-android-support:2.28'
     kapt "com.google.dagger:dagger-compiler:2.28"
     kapt "com.google.dagger:dagger-android-processor:2.28"
     //Navigation
-    implementation "androidx.navigation:navigation-fragment-ktx:2.2.2"
-    implementation "androidx.navigation:navigation-ui-ktx:2.2.2"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.0"
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.8.1'
-    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
     //Google API
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 
-    implementation "androidx.paging:paging-runtime:3.0.0-alpha01"
+    implementation "androidx.paging:paging-runtime:3.0.0-alpha04"
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-common-java8:2.2.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.3.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.1'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

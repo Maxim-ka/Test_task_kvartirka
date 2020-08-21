@@ -2,84 +2,87 @@ package com.reschikov.kvartirka.testtask.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import com.reschikov.kvartirka.testtask.domain.Meta
-import com.reschikov.kvartirka.testtask.domain.Reply
-import com.reschikov.kvartirka.testtask.domain.Request
-import com.reschikov.kvartirka.testtask.ui.viewmodel.Derivable
+import com.reschikov.kvartirka.testtask.LAT_MOSCOW
+import com.reschikov.kvartirka.testtask.LNG_MOSCOW
+import com.reschikov.kvartirka.testtask.domain.enteries.City
+import com.reschikov.kvartirka.testtask.domain.enteries.Point
+import com.reschikov.kvartirka.testtask.domain.enteries.Meta
+import com.reschikov.kvartirka.testtask.domain.enteries.Reply
+import com.reschikov.kvartirka.testtask.domain.enteries.Request
+import com.reschikov.kvartirka.testtask.domain.enteries.SizePx
+import com.reschikov.kvartirka.testtask.presentation.ui.viewmodel.Derivable
 import kotlinx.coroutines.*
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.coroutines.CoroutineContext
 
-private const val LAT_MOSCOW = 55.753960
-private const val LNG_MOSCOW = 37.620393
-
 @Singleton
-class Repository @Inject constructor(private val checkNetWork: LiveData<String?>,
-                                     private val definableCoordinates: DefinableCoordinates,
-                                     private val requestable: Requestable,
-                                     private val transformable: Transformable)
-    : Derivable {
+class Repository @Inject constructor(
+    private val checkNetWork: LiveData<String?>,
+    private val definableCoordinates: DefinableCoordinates,
+    private val requestable: Requestable,
+    private val transformable: Transformable) : Derivable {
 
     private val observerNetWork by lazy {
-        Observer<String?> { it?.let{ coroutineRepository.cancel(CancellationException(it)) }}
+        Observer<String?> { it?.let{ coroutineRepository.cancel(CancellationException(it))
+            } ?: run {
+            if (!coroutineRepository.isActive) coroutineRepository = Dispatchers.IO + Job() }
+        }
     }
-    private lateinit var coroutineRepository : CoroutineContext
+    private var coroutineRepository : CoroutineContext = Dispatchers.IO + Job()
 
     init {
         checkNetWork.observeForever(observerNetWork)
     }
 
     @Throws
-    override suspend fun requestListOfAds(widthPx : Int, heightPx : Int, isLocal: Boolean, meta: Meta): Reply {
-        coroutineRepository = Dispatchers.IO + Job()
-        return withContext(coroutineRepository) {
+    override suspend fun requestListOfAds(request: Request): Reply {
+        return withContext(coroutineRepository){
             ensureActive()
-            if (isLocal) {
-                definableCoordinates.getCoordinates()?.let { location ->
-                    ensureActive()
-                    getListFlats(widthPx, heightPx, location.latitude, location.longitude, meta)?.let {
-                        return@withContext it
-                    }
+            request.run {
+                point?.let {
+                    val city = city ?: getCity(it)
+                    getListFlats(sizePx, it, city, meta)
+                } ?: run {
+                    getLocation()?.let {
+                        getListFlats(sizePx, it,  getCity(it), meta)
+                    } ?: run{ getListMoscowFlats(sizePx, meta) }
                 }
             }
-            ensureActive()
-            getListMoscowFlats(widthPx, heightPx, meta)
         }
     }
 
-    @Throws
-    override suspend fun requestListOfAds(request: Request, meta: Meta): Reply {
-        coroutineRepository = Dispatchers.IO + Job()
-        return withContext(coroutineRepository){
-            request.run {
-                ensureActive()
-                val replyFlats = requestable.getListFlats(width, height, point.lat, point.lon, city.id, meta)
-                transformable.transformToReply(city, replyFlats)
-            }
+    private suspend fun getLocation() : Point? {
+        coroutineRepository.ensureActive()
+        return definableCoordinates.getCoordinates()?.let {
+            Point(it.latitude, it.longitude)
         }
     }
 
-    @Throws
-    private suspend fun getListFlats(widthPx : Int, heightPx : Int, lat : Double, lng : Double, meta: Meta)
-            : Reply? {
-        val cities = requestable.getCurrentCity(lat, lng).cities
-        if (cities.isEmpty()) return null
-        val reply = requestable.getListFlats(widthPx, heightPx, lat, lng, cities.first().id, meta)
-        val list = reply.flats
-        if (list.isEmpty()) return null
-        return transformable.transformToReply(cities.first(), reply)
+    private suspend fun getCity(point: Point) : City {
+        coroutineRepository.ensureActive()
+        val cities = requestable.getCurrentCity(point.lat, point.lon).cities
+        if (cities.isEmpty()) return requestable.getCurrentCity(LAT_MOSCOW, LNG_MOSCOW).cities.first()
+        return cities.first()
     }
 
-    private suspend fun getListMoscowFlats(widthPx : Int, heightPx : Int, meta: Meta)
-            : Reply {
-        val city = requestable.getCurrentCity(LAT_MOSCOW, LNG_MOSCOW).cities.first()
-        val reply = requestable.getListFlats(widthPx, heightPx, LAT_MOSCOW, LNG_MOSCOW, city.id, meta)
+    private suspend fun getListFlats(sizePx: SizePx, point: Point, city : City, meta: Meta) : Reply {
+        coroutineRepository.ensureActive()
+        val reply = requestable.getListFlats(sizePx, point, city.id, meta)
+        if (reply.flats.isEmpty()) return Reply(emptyList(), point, city, meta)
+        return transformable.transformToReply(city, reply)
+    }
+
+    private suspend fun getListMoscowFlats(sizePx: SizePx, meta: Meta) : Reply {
+        val point = Point(LAT_MOSCOW, LNG_MOSCOW)
+        coroutineRepository.ensureActive()
+        val city = getCity(point)
+        val reply = requestable.getListFlats(sizePx, point, city.id, meta)
         return transformable.transformToReply(city, reply)
     }
 
     override fun terminate() {
-        checkNetWork.removeObserver(observerNetWork)
         if (coroutineRepository.isActive) coroutineRepository.cancel()
+        checkNetWork.removeObserver(observerNetWork)
     }
 }

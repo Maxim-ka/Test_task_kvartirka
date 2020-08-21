@@ -11,7 +11,7 @@ import android.os.Bundle
 import android.os.Looper
 import androidx.core.app.ActivityCompat
 import com.reschikov.kvartirka.testtask.R
-import com.reschikov.kvartirka.testtask.domain.NoPermissionException
+import com.reschikov.kvartirka.testtask.domain.enteries.NoPermissionException
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException

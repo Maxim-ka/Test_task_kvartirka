@@ -4,7 +4,7 @@
     app:startDestination="@id/listFlatsFragment">
     <fragment
         android:id="@+id/listFlatsFragment"
-        android:name="com.reschikov.kvartirka.testtask.ui.fragments.ListFlatsFragment"
+        android:name="com.reschikov.kvartirka.testtask.presentation.ui.fragments.ListFlatsFragment"
         android:label="ListFlatsFragment" >
         <action
             android:id="@+id/action_listFlatsFragment_to_flatFragment"
@@ -12,7 +12,7 @@
     </fragment>
     <fragment
         android:id="@+id/flatFragment"
-        android:name="com.reschikov.kvartirka.testtask.ui.fragments.FlatFragment"
+        android:name="com.reschikov.kvartirka.testtask.presentation.ui.fragments.FlatFragment"
         android:label="FlatFragment" >
         <action
             android:id="@+id/action_flatFragment_to_photoFragment"
@@ -20,6 +20,6 @@
     </fragment>
     <fragment
         android:id="@+id/photoFragment"
-        android:name="com.reschikov.kvartirka.testtask.ui.fragments.PhotoFragment"
+        android:name="com.reschikov.kvartirka.testtask.presentation.ui.fragments.PhotoFragment"
         android:label="PhotoFragment" />
 </navigation>

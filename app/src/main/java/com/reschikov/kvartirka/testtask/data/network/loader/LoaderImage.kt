@@ -1,38 +1,31 @@
 package com.reschikov.kvartirka.testtask.data.network.loader
 
-import android.content.Context
-import android.widget.ImageView
-import com.reschikov.kvartirka.testtask.data.network.requestprovider.ActivateableTLS
-import com.reschikov.kvartirka.testtask.ui.fragments.adapters.Downloadable
-import com.squareup.picasso.OkHttp3Downloader
+import android.view.View
+import com.reschikov.kvartirka.testtask.presentation.ui.fragments.adapters.Downloadable
+import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.block_image.view.*
+import kotlinx.android.synthetic.main.block_progress.view.*
+import java.lang.Exception
 import javax.inject.Inject
 import javax.inject.Singleton
 
-private const val BAD_HOST = "media.beta.kvartirka.pro"
-private const val GOOD_HOST = "media.kvartirka.com"
-
 @Singleton
-class LoaderImage @Inject constructor(activateableTLS: ActivateableTLS?,
-                                      context: Context?): Downloadable{
+class LoaderImage @Inject constructor(private val picasso: Picasso): Downloadable{
 
-    private val picasso: Picasso = if (activateableTLS != null && context != null) {
-         Picasso.Builder(context)
-            .downloader(OkHttp3Downloader(activateableTLS.getClient()))
-            .indicatorsEnabled(true)
-            .build()
-    } else {
-        Picasso.get()
-    }
+    override fun download(url: String, view: View) {
+        view.pb_circle.visibility = View.VISIBLE
+        picasso.load(url).fit().into(view.iv_photo, object : Callback{
+            override fun onSuccess() {
+                view.pb_circle.visibility = View.GONE
+                picasso.cancelRequest(view.iv_photo)
+            }
 
-    override fun download(url: String, imageView: ImageView) {
-        picasso.load(replace(url)).fit().into(imageView)
-    }
-
-    private fun replace(url : String) : String{
-        if (url.contains(BAD_HOST, true)) return url.replace(
-            BAD_HOST,
-            GOOD_HOST, true)
-        return url
+            override fun onError(e: Exception?) {
+                view.pb_circle.visibility = View.GONE
+                view.iv_photo.contentDescription = e?.message ?: e.toString()
+                picasso.cancelRequest(view.iv_photo)
+            }
+        })
     }
 }

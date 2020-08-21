@@ -1,16 +1,15 @@
 package com.reschikov.kvartirka.testtask.di
 
 import android.content.Context
-import com.reschikov.kvartirka.testtask.di.scopelistflats.ListFlatsComponent
-import com.reschikov.kvartirka.testtask.di.scopelistphoto.ListPhotosComponent
-import com.reschikov.kvartirka.testtask.di.scopephoto.PhotoComponent
-import com.reschikov.kvartirka.testtask.ui.MainActivity
+import com.reschikov.kvartirka.testtask.AppTestTask
 import dagger.BindsInstance
 import dagger.Component
+import dagger.android.support.AndroidSupportInjectionModule
 import javax.inject.Singleton
 
 @Singleton
-@Component(modules = [ViewModelModule::class, AppModule::class, NetworkModule::class])
+@Component(modules = [AndroidSupportInjectionModule::class,
+    ViewModelModule::class, AppModule::class, NetworkModule::class])
 interface AppComponent {
 
     @Component.Builder
@@ -18,8 +17,5 @@ interface AppComponent {
         @BindsInstance fun getContext(context: Context) : Builder
         fun build() : AppComponent
     }
-    fun listFlatsComponentBuilder() : ListFlatsComponent.Builder
-    fun listPhotosComponentBuilder() : ListPhotosComponent.Builder
-    fun photoComponentBuilder() : PhotoComponent.Builder
-    fun inject(activity: MainActivity)
+    fun inject(app : AppTestTask)
 }

@@ -17,7 +17,9 @@ import com.reschikov.kvartirka.testtask.data.network.request.ApiBetaKvartirkaPro
 import com.reschikov.kvartirka.testtask.data.network.requestprovider.ActivateableTLS
 import com.reschikov.kvartirka.testtask.data.network.requestprovider.KvartirkaProvider
 import com.reschikov.kvartirka.testtask.data.network.requestprovider.KvartirkaRetrofit
-import com.reschikov.kvartirka.testtask.ui.fragments.adapters.Downloadable
+import com.reschikov.kvartirka.testtask.presentation.ui.fragments.adapters.Downloadable
+import com.squareup.picasso.OkHttp3Downloader
+import com.squareup.picasso.Picasso
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -48,6 +50,21 @@ abstract class NetworkModule{
             return KvartirkaRetrofit(activateableTLS)
                 .getRetrofit()
                 .create(ApiBetaKvartirkaPro::class.java)
+        }
+
+        @SuppressLint("JvmStaticProvidesInObjectDetector")
+        @Singleton
+        @Provides
+        @JvmStatic
+        fun providePicasso(activateableTLS: ActivateableTLS?) : Picasso {
+            return  activateableTLS?.let {
+                Picasso.Builder(it.getContext())
+                    .downloader(OkHttp3Downloader(it.getClient()))
+                    .indicatorsEnabled(true)
+                    .build()
+                } ?: run {
+                    Picasso.get()
+                }
         }
 
         @SuppressLint("JvmStaticProvidesInObjectDetector")

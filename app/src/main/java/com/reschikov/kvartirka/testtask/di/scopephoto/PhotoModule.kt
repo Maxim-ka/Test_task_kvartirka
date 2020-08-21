@@ -1,7 +1,8 @@
 package com.reschikov.kvartirka.testtask.di.scopephoto
 
-import com.reschikov.kvartirka.testtask.ui.fragments.adapters.Downloadable
-import com.reschikov.kvartirka.testtask.ui.fragments.adapters.PhotoAdapter
+
+import com.reschikov.kvartirka.testtask.presentation.ui.fragments.adapters.Downloadable
+import com.reschikov.kvartirka.testtask.presentation.ui.fragments.adapters.PhotoAdapter
 import dagger.Module
 import dagger.Provides
 
@@ -13,5 +14,4 @@ class PhotoModule {
     fun providePhotoAdapter(downloadable: Downloadable) : PhotoAdapter {
         return PhotoAdapter(downloadable)
     }
-
 }

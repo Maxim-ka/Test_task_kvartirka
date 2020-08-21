@@ -15,8 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/iv_default_photo"
+        <include layout="@layout/block_image"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintDimensionRatio="1:1"
@@ -24,8 +23,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toStartOf="@id/tv_address"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:contentDescription="TODO" />
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <include layout="@layout/block_progress"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_address"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
         <TextView
             android:id="@+id/tv_title"
@@ -37,7 +43,7 @@
             android:textAlignment="gravity"
             app:layout_constraintVertical_chainStyle="spread_inside"
             app:layout_constraintHorizontal_weight="1"
-            app:layout_constraintStart_toEndOf="@id/iv_default_photo"
+            app:layout_constraintStart_toEndOf="@id/iv_photo"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@id/tv_address"
@@ -52,7 +58,7 @@
             android:padding="@dimen/indent_little"
             android:textAlignment="gravity"
             app:layout_constraintHorizontal_weight="1"
-            app:layout_constraintStart_toEndOf="@id/iv_default_photo"
+            app:layout_constraintStart_toEndOf="@id/iv_photo"
             app:layout_constraintTop_toBottomOf="@id/tv_title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@id/tv_price"
@@ -69,7 +75,7 @@
             android:paddingBottom="@dimen/indent_little"
             android:textAlignment="textStart"
             app:layout_constraintHorizontal_weight="1"
-            app:layout_constraintStart_toEndOf="@id/iv_default_photo"
+            app:layout_constraintStart_toEndOf="@id/iv_photo"
             app:layout_constraintTop_toBottomOf="@id/tv_address"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"

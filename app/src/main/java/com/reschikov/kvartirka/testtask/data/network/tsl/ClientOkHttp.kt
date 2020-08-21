@@ -24,6 +24,8 @@ class ClientOkHttp(private val context: Context) : ActivateableTLS {
         .cache(Cache(context.cacheDir, MAX_SIZE))
         .build()
 
+    override fun getContext() : Context = context
+
     @Throws(IllegalStateException::class)
     private fun getX509TrustManager() : X509TrustManager {
         val trustManagerFactory = TrustManagerFactory

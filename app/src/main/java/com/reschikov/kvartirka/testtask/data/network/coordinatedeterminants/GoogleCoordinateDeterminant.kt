@@ -7,7 +7,7 @@ import android.location.Location
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.*
 import com.google.android.gms.tasks.Task
-import com.reschikov.kvartirka.testtask.domain.NoPermissionException
+import com.reschikov.kvartirka.testtask.domain.enteries.NoPermissionException
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException

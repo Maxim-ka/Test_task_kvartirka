@@ -7,7 +7,9 @@ import com.reschikov.kvartirka.testtask.data.Requestable
 import com.reschikov.kvartirka.testtask.data.network.model.ReplyCities
 import com.reschikov.kvartirka.testtask.data.network.model.ReplyFlats
 import com.reschikov.kvartirka.testtask.data.network.request.ApiBetaKvartirkaPro
-import com.reschikov.kvartirka.testtask.domain.Meta
+import com.reschikov.kvartirka.testtask.domain.enteries.Meta
+import com.reschikov.kvartirka.testtask.domain.enteries.Point
+import com.reschikov.kvartirka.testtask.domain.enteries.SizePx
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -36,10 +38,10 @@ class KvartirkaProvider @Inject constructor(private val request: ApiBetaKvartirk
     }
 
     @Throws
-    override suspend fun getListFlats(widthPx : Int, heightPx : Int, pointLat: Double, pointLng: Double, cityId: Int, meta: Meta): ReplyFlats {
+    override suspend fun getListFlats(sizePx: SizePx, point: Point, cityId: Int, meta: Meta): ReplyFlats {
         val metaStr = Gson().toJson(meta)
         return suspendCoroutine{continuation ->
-            request.getFlats(TEST, TEST, numberOS, version, widthPx, heightPx, pointLng, pointLat, cityId, metaStr)
+            request.getFlats(TEST, TEST, numberOS, version, sizePx.widthPx, sizePx.heightPx, point.lon, point.lat, cityId, metaStr)
                 .enqueue(getCallBack<ReplyFlats>(continuation))
         }
     }
